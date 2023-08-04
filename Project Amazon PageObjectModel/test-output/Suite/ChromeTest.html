@@ -1,0 +1,222 @@
+<html>
+<head>
+<title>TestNG:  ChromeTest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>ChromeTest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>15/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Jul 24 15:25:42 IST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>122 seconds (122333 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='amazon.testScripts.TC03AddProductToCartTest.setUp()'><b>setUp</b><br>Test class: amazon.testScripts.TC03AddProductToCartTest</td>
+<td></td>
+<td>0</td>
+<td>amazon.testScripts.TC03AddProductToCartTest@7e6f74c</td></tr>
+<tr>
+<td title='amazon.testScripts.TC04TodayDealsTest.todayDealsUITest()'><b>todayDealsUITest</b><br>Test class: amazon.testScripts.TC04TodayDealsTest<br/>
+<a href="#Output-2056277810" onClick='toggleBox("Output-2056277810", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2056277810" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2056277810">
+Height :28 width: 103 X axis:320 Y axis: 65<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>amazon.testScripts.TC04TodayDealsTest@dd05255</td></tr>
+<tr>
+<td title='amazon.testScripts.TC02SearchBarTest.SearchAutoSuggestion()'><b>SearchAutoSuggestion</b><br>Test class: amazon.testScripts.TC02SearchBarTest<br/>
+<a href="#Output-499310212" onClick='toggleBox("Output-499310212", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-499310212" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-499310212">
+Search Bar Suggestions are Visible on UI<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>amazon.testScripts.TC02SearchBarTest@6150c3ec</td></tr>
+<tr>
+<td title='amazon.testScripts.TC02SearchBarTest.SearchProduct()'><b>SearchProduct</b><br>Test class: amazon.testScripts.TC02SearchBarTest</td>
+<td></td>
+<td>3</td>
+<td>amazon.testScripts.TC02SearchBarTest@6150c3ec</td></tr>
+<tr>
+<td title='amazon.testScripts.TC06LanguagesTest.languageUITest()'><b>languageUITest</b><br>Test class: amazon.testScripts.TC06LanguagesTest<br/>
+<a href="#Output-6688524" onClick='toggleBox("Output-6688524", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-6688524" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-6688524">
+Choose Language link is Correctly Located in UI<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>amazon.testScripts.TC06LanguagesTest@2f4948e4</td></tr>
+<tr>
+<td title='amazon.testScripts.TC07DataDrivenTest.setUp()'><b>setUp</b><br>Test class: amazon.testScripts.TC07DataDrivenTest</td>
+<td></td>
+<td>0</td>
+<td>amazon.testScripts.TC07DataDrivenTest@1f2586d6</td></tr>
+<tr>
+<td title='amazon.testScripts.TC02SearchBarTest.setUp()'><b>setUp</b><br>Test class: amazon.testScripts.TC02SearchBarTest</td>
+<td></td>
+<td>0</td>
+<td>amazon.testScripts.TC02SearchBarTest@6150c3ec</td></tr>
+<tr>
+<td title='amazon.testScripts.TC04TodayDealsTest.setUp()'><b>setUp</b><br>Test class: amazon.testScripts.TC04TodayDealsTest</td>
+<td></td>
+<td>0</td>
+<td>amazon.testScripts.TC04TodayDealsTest@dd05255</td></tr>
+<tr>
+<td title='amazon.testScripts.TC05CustomerServiceTest.CustomerServiceUITest()'><b>CustomerServiceUITest</b><br>Test class: amazon.testScripts.TC05CustomerServiceTest<br/>
+<a href="#Output-991875403" onClick='toggleBox("Output-991875403", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-991875403" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-991875403">
+Element Height:28
+Width:129
+X-axis 599
+Y-axis 65<br/>
+Customer Service Element is Correctly Placed in HomePage <br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>amazon.testScripts.TC05CustomerServiceTest@6a78afa0</td></tr>
+<tr>
+<td title='amazon.testScripts.TC06LanguagesTest.chooseLangFunc()'><b>chooseLangFunc</b><br>Test class: amazon.testScripts.TC06LanguagesTest</td>
+<td></td>
+<td>1</td>
+<td>amazon.testScripts.TC06LanguagesTest@2f4948e4</td></tr>
+<tr>
+<td title='amazon.testScripts.TC01FirstTest.homePageTest()'><b>homePageTest</b><br>Test class: amazon.testScripts.TC01FirstTest<br/>
+<a href="#Output-1225970981" onClick='toggleBox("Output-1225970981", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1225970981" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1225970981">
+Home Page is Visible and Loading As Mentioned<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>amazon.testScripts.TC01FirstTest@327514f</td></tr>
+<tr>
+<td title='amazon.testScripts.TC04TodayDealsTest.todayDealsFunctionTest()'><b>todayDealsFunctionTest</b><br>Test class: amazon.testScripts.TC04TodayDealsTest</td>
+<td></td>
+<td>2</td>
+<td>amazon.testScripts.TC04TodayDealsTest@dd05255</td></tr>
+<tr>
+<td title='amazon.testScripts.TC05CustomerServiceTest.custServiceFunc()'><b>custServiceFunc</b><br>Test class: amazon.testScripts.TC05CustomerServiceTest<br/>
+<a href="#Output-17680342" onClick='toggleBox("Output-17680342", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-17680342" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-17680342">
+Your Orders<br/>
+Returns and Refunds<br/>
+Manage Addresses<br/>
+Manage Prime<br/>
+Payment Settings<br/>
+Account Settings<br/>
+Amazon and COVID-19<br/>
+Digital Services and Device Support<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>amazon.testScripts.TC05CustomerServiceTest@6a78afa0</td></tr>
+<tr>
+<td title='amazon.testScripts.TC02SearchBarTest.LocateSearchBar()'><b>LocateSearchBar</b><br>Test class: amazon.testScripts.TC02SearchBarTest<br/>
+<a href="#Output-31906520" onClick='toggleBox("Output-31906520", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-31906520" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-31906520">
+Search Bar is Situated on UI<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>amazon.testScripts.TC02SearchBarTest@6150c3ec</td></tr>
+<tr>
+<td title='amazon.testScripts.TC03AddProductToCartTest.SearchProduct()'><b>SearchProduct</b><br>Test class: amazon.testScripts.TC03AddProductToCartTest<br/>
+<a href="#Output-557593923" onClick='toggleBox("Output-557593923", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-557593923" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-557593923">
+Product Page Title:Amazon.in : iphone<br/>
+</div>
+</td>
+<td></td>
+<td>14</td>
+<td>amazon.testScripts.TC03AddProductToCartTest@7e6f74c</td></tr>
+</table><p>
+</body>
+</html>
