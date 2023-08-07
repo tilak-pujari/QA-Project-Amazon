@@ -23,6 +23,7 @@ public class CommonUtility {
 		s.selectByIndex(index);
 	}
 	
+	//Select class method to get Option by value
 	public void selectByValue(WebElement wb,String value) {
 		Select s=new Select(wb);
 		s.selectByValue(value);
