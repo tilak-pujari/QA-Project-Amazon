@@ -1,4 +1,4 @@
-# Selenium-Automation-Amazon
+# Project-Amazon Manual and Automation Testing
 
 ## Prerequisites
 
