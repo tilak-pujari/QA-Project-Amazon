@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[Opened Session Successful]]>
@@ -11,47 +11,77 @@
       <![CDATA[Logout Successful]]>
     </line>
     <line>
+      <![CDATA[Login Successful]]>
+    </line>
+    <line>
+      <![CDATA[Home Page is Visible and Loading As Mentioned]]>
+    </line>
+    <line>
+      <![CDATA[Logout Successful]]>
+    </line>
+    <line>
       <![CDATA[Closed Session Successful]]>
     </line>
   </reporter-output>
-  <suite started-at="2023-07-31T16:40:49 IST" name="Default suite" finished-at="2023-07-31T16:41:16 IST" duration-ms="26770">
+  <suite started-at="2023-08-07T19:36:34 IST" name="Default suite" finished-at="2023-08-07T19:38:25 IST" duration-ms="111246">
     <groups>
     </groups>
-    <test started-at="2023-07-31T16:40:49 IST" name="Default test" finished-at="2023-07-31T16:41:16 IST" duration-ms="26770">
-      <class name="amazon.testScripts.TC07ElectronicsLaptopsTest">
-        <test-method is-config="true" signature="OpenBrowser()[pri:0, instance:amazon.testScripts.TC07ElectronicsLaptopsTest@3c46e67a]" started-at="2023-07-31T16:40:49 IST" name="OpenBrowser" finished-at="2023-07-31T16:41:00 IST" duration-ms="10917" status="PASS">
+    <test started-at="2023-08-07T19:36:34 IST" name="Default test" finished-at="2023-08-07T19:38:25 IST" duration-ms="111246">
+      <class name="amazon.testScripts.TC01HomePageTest">
+        <test-method is-config="true" signature="OpenBrowser()[pri:0, instance:amazon.testScripts.TC01HomePageTest@45752059]" started-at="2023-08-07T19:36:34 IST" name="OpenBrowser" finished-at="2023-08-07T19:37:40 IST" duration-ms="66388" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Opened Session Successful]]>
             </line>
           </reporter-output>
         </test-method> <!-- OpenBrowser -->
-        <test-method is-config="true" signature="Login()[pri:0, instance:amazon.testScripts.TC07ElectronicsLaptopsTest@3c46e67a]" started-at="2023-07-31T16:41:00 IST" name="Login" finished-at="2023-07-31T16:41:03 IST" duration-ms="3459" status="PASS">
+        <test-method is-config="true" signature="Login()[pri:0, instance:amazon.testScripts.TC01HomePageTest@45752059]" started-at="2023-08-07T19:37:40 IST" name="Login" finished-at="2023-08-07T19:37:58 IST" duration-ms="17351" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Login Successful]]>
             </line>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method signature="clickElectronics()[pri:0, instance:amazon.testScripts.TC07ElectronicsLaptopsTest@3c46e67a]" started-at="2023-07-31T16:41:03 IST" name="clickElectronics" finished-at="2023-07-31T16:41:14 IST" duration-ms="10778" status="PASS">
+        <test-method signature="setUp()[pri:0, instance:amazon.testScripts.TC01HomePageTest@45752059]" started-at="2023-08-07T19:37:58 IST" name="setUp" finished-at="2023-08-07T19:37:59 IST" duration-ms="827" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- clickElectronics -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:amazon.testScripts.TC07ElectronicsLaptopsTest@3c46e67a]" started-at="2023-07-31T16:41:14 IST" name="logout" finished-at="2023-07-31T16:41:14 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:amazon.testScripts.TC01HomePageTest@45752059]" started-at="2023-08-07T19:37:59 IST" name="logout" finished-at="2023-08-07T19:37:59 IST" duration-ms="1" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Logout Successful]]>
             </line>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:amazon.testScripts.TC07ElectronicsLaptopsTest@3c46e67a]" started-at="2023-07-31T16:41:14 IST" name="closeBrowser" finished-at="2023-07-31T16:41:16 IST" duration-ms="1503" status="PASS">
+        <test-method is-config="true" signature="Login()[pri:0, instance:amazon.testScripts.TC01HomePageTest@45752059]" started-at="2023-08-07T19:37:59 IST" name="Login" finished-at="2023-08-07T19:38:08 IST" duration-ms="8817" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login Successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="homePageTest()[pri:1, instance:amazon.testScripts.TC01HomePageTest@45752059]" started-at="2023-08-07T19:38:08 IST" name="homePageTest" finished-at="2023-08-07T19:38:09 IST" depends-on-methods="amazon.testScripts.TC01HomePageTest.setUp" duration-ms="812" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Home Page is Visible and Loading As Mentioned]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- homePageTest -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:amazon.testScripts.TC01HomePageTest@45752059]" started-at="2023-08-07T19:38:09 IST" name="logout" finished-at="2023-08-07T19:38:09 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout Successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:amazon.testScripts.TC01HomePageTest@45752059]" started-at="2023-08-07T19:38:09 IST" name="closeBrowser" finished-at="2023-08-07T19:38:25 IST" duration-ms="16610" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Closed Session Successful]]>
             </line>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- amazon.testScripts.TC07ElectronicsLaptopsTest -->
+      </class> <!-- amazon.testScripts.TC01HomePageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

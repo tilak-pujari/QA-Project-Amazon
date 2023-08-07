@@ -30,7 +30,7 @@ public class BaseClass {
 		ListenerDriver = driver;
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-		Reporter.log("Opened Session Successful",true);
+		Reporter.log("Opened Session Successful", true);
 	}
 
 	@BeforeMethod
