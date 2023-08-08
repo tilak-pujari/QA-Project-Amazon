@@ -55,5 +55,4 @@ public class TC08_FooterSectionTest extends BaseClass {
 			driver.navigate().to(url);
 		}
 	}
-
 }
