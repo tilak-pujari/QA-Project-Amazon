@@ -99,6 +99,21 @@ public class HomePageLocators {
 	
 	
 	
+	public List<WebElement> getGetToKnowUsSection() {
+		return getToKnowUsSection;
+	}
+
+	public List<WebElement> getConnectWithUsSection() {
+		return connectWithUsSection;
+	}
+
+	public List<WebElement> getMakeMoneyWithUsSection() {
+		return makeMoneyWithUsSection;
+	}
+
+	public List<WebElement> getLetUsHelpYouSection() {
+		return letUsHelpYouSection;
+	}
 
 	public WebElement getElectronicsBtn() {
 		return electronicsBtn;

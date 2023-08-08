@@ -3,15 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="amazon.testScripts.TC07ElectronicsLaptopsTest">
+      <class name="amazon.testScripts.TC08_FooterSectionTest">
         <methods>
           <include name="closeBrowser"/>
-          <include name="clickElectronics"/>
           <include name="Login"/>
           <include name="OpenBrowser"/>
+          <include name="connectWithUsGetLinks"/>
           <include name="logout"/>
         </methods>
-      </class> <!-- amazon.testScripts.TC07ElectronicsLaptopsTest -->
+      </class> <!-- amazon.testScripts.TC08_FooterSectionTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
