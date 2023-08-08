@@ -13,7 +13,7 @@ import amazon.Utils.LoadDrivers;
 
 public class HomePageLocators {
 
-	WebDriver driver;
+	public WebDriver driver;
 
 	public HomePageLocators(WebDriver driver) {
 		PageFactory.initElements(driver, this);
@@ -81,6 +81,24 @@ public class HomePageLocators {
 
 	@FindBy(partialLinkText = "Electronics")
 	private WebElement electronicsBtn;
+	
+	
+	
+	//Footer Section
+	@FindBys({@FindBy(xpath="//div[text()='Get to Know Us']/../ul[1]/li/a[1]")})
+	private List<WebElement> getToKnowUsSection;
+	
+	@FindBys({@FindBy(xpath="//div[text()='Connect with Us']/../ul[1]/li/a[1]")})
+	private List<WebElement> connectWithUsSection;
+	
+	@FindBys({@FindBy(xpath="//div[text()='Make Money with Us']/../ul[1]/li/a[1]")})
+	private List<WebElement> makeMoneyWithUsSection;
+	
+	@FindBys({@FindBy(xpath="//div[text()='Let Us Help You']/../ul[1]/li/a[1]")})
+	private List<WebElement> letUsHelpYouSection;
+	
+	
+	
 
 	public WebElement getElectronicsBtn() {
 		return electronicsBtn;
