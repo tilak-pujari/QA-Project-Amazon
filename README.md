@@ -10,11 +10,11 @@
 
 # Amazon Web Application Testing using Generic methods and Concepts
 -written test scripts for various amazon end to end testing scenarios
-## used concepts :
+**used concepts:**
     - WebDriver methods
     - WebElement methods
     - Finding Dynamic WebElement using xpath locators
-    - 
+    - Different Locators id,name,className,cssSelector,linkText,partialLinkText,xpath,tagName
     - Actions Class Robot Class for Mouse/Keyboard actions
     -    TestNG for * report generating
                  * batch/group/parallel execution
