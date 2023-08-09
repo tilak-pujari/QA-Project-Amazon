@@ -16,11 +16,11 @@
     - Finding Dynamic WebElement using xpath locators
     - 
     - Actions Class Robot Class for Mouse/Keyboard actions
-    -)TestNG for * report generating
+    -    TestNG for * report generating
                  * batch/group/parallel execution
                  * cross browser testing
                  * listener feature for taking screenshot of failed testcase
-    -)Taking Screnshot
+    -    Taking Screnshot
 
 # Amazon Website Automation Testing using Page Object Model and Data Driven Testing
 
@@ -29,6 +29,13 @@ design pattern and the TestNG testing framework.
 The POM approach enhances the maintainability, readability, and reusability of test scripts,
 while TestNG facilitates organized and efficient test execution.
 
-
-
-
+**Functionality Tested**
+- Login,Logout
+- Search Bar
+- Place order/ Add to cart/ payment gateway
+- Home Page UI
+- Home Page Functionality
+- Navigation bar
+- Languages
+- Customer support
+- etc
