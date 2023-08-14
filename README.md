@@ -8,7 +8,8 @@
 - Build tool : Maven for dependency management
 
 # Amazon Web Testing Generic
-    written test scripts for various amazon end to end testing scenarios
+- written test scripts for various amazon end to end testing scenarios
+  
 **Concepts used:**
 - WebDriver methods
 - WebElement methods
@@ -32,8 +33,7 @@ while TestNG facilitates organized and efficient test execution.
 - Login,Logout
 - Search Bar
 - Place order/ Add to cart/ payment gateway
-- Home Page UI
-- Home Page Functionality
+- Home Page UI and Functionality
 - Navigation bar
 - Languages
 - Customer support
