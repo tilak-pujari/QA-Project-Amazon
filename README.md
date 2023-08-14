@@ -5,7 +5,7 @@
 - Java Development Kit :JDK installed
 - Web browser : Chrome /Firefox/Edge installed
 - WebDriver : ChromeDriver/FirefoxDriver/EdgeDriver installed
-- Build tool : Maven -for dependency management
+- Build tool : Maven for dependency management
 
 # Amazon Web Testing Generic
     written test scripts for various amazon end to end testing scenarios
