@@ -11,6 +11,7 @@
 - written test scripts for various amazon end to end testing scenarios
   
 **Concepts used:**
+
 - WebDriver methods
 - WebElement methods
 - Finding Dynamic WebElement using xpath locators
@@ -19,8 +20,7 @@
 -    TestNG for * report generating
                  * batch/group/parallel execution
                  * cross browser testing
-                 * listener feature for taking screenshots of failed testcase
--    Taking Screnshot
+                 * listener feature for taking screenshots of failed testcases
 
 # Amazon Website Automation Testing using POM and DDT
 This project demonstrates automated testing of the Amazon website using the Page Object Model (POM)
