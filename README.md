@@ -29,7 +29,7 @@ design pattern and the TestNG testing framework.
 The POM approach enhances the maintainability, readability, and reusability of test scripts,
 while TestNG facilitates organized and efficient test execution.
 
-**Functionality Tested:**
+**Functionality Tested**
 - Login,Logout
 - Search Bar
 - Place order/ Add to cart/ payment gateway
