@@ -12,7 +12,6 @@
 - written test scripts for various amazon end to end testing scenarios
   
 **Concepts used:**
-
 - WebDriver methods
 - WebElement methods
 - Finding Dynamic WebElement using xpath locators
