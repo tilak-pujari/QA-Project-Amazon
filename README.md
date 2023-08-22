@@ -37,4 +37,5 @@ while TestNG facilitates organized and efficient test execution.
 - Navigation bar
 - Languages
 - Customer support
+- Todays Deal Page UI Test
 - etc
