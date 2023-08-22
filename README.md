@@ -9,7 +9,7 @@
 - Bug Tracking tool: Jira
 
 # Amazon Web Testing Generic
-- written test scripts for various amazon end to end testing scenarios
+- wrote test scripts for various amazon end to end testing scenarios
   
 **Concepts used:**
 - WebDriver methods
