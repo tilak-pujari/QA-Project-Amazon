@@ -6,7 +6,7 @@
 - Web browser : Chrome /Firefox/Edge installed
 - WebDriver : ChromeDriver/FirefoxDriver/EdgeDriver installed
 - Build tool : Maven for dependency management
-- Bug Tracking tool: Jira
+- Defect/Bug Tracking tool: Jira
 
 # Amazon Web Testing Generic
 - wrote basic and complex test scripts for various amazon end to end testing scenarios
