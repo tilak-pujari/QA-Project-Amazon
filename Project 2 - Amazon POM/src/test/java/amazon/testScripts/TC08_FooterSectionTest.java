@@ -33,7 +33,7 @@ public class TC08_FooterSectionTest extends BaseClass {
 			System.out.println("Y " + link.getRect().getY());
 			System.out.println("Width " + link.getRect().getWidth());
 			System.out.println("Height " + link.getRect().getHeight());
-			System.out.println("-----------------------------------");
+			System.out.println("---****---");
 			// Assertion
 		}
 	}
