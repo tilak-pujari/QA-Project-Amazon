@@ -25,8 +25,7 @@
 # Amazon Website Automation Testing using POM and DDT
 
   This project demonstrates automated testing of the Amazon website using the Page Object Model (POM) design pattern and the TestNG testing framework.
-The POM approach enhances the maintainability, readability, and reusability of test scripts,
-while TestNG facilitates organized and efficient test execution.
+The POM approach enhances the maintainability, readability, and reusability of test scripts,while TestNG facilitates organized and efficient test execution.
 
 **Functionality Tested**
 - Login,Logout
