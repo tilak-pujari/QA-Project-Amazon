@@ -35,5 +35,5 @@ The POM approach enhances the maintainability, readability, and reusability of t
 - Navigation bar
 - Languages
 - Customer support
-- Todays Deal Page UI Test
+- Todays Deal Page / UI Test
 - etc
