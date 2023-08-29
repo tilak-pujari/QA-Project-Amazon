@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 
 import amazon.genericLib.BaseClass;
 
-public class TC4_A_Lang_Test {//extends BaseClass{
+public class TC04_Lang_Test {//extends BaseClass{
 	WebDriver driver;
 	public void openAmazon() {
 		System.setProperty("webdriver.chrome.driver","C:\\Users\\91740\\OneDrive\\Desktop\\Projects\\chromedriver_win32\\chromedriver.exe");

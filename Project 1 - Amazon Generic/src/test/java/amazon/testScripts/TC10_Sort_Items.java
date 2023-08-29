@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 
 import amazon.genericLib.BaseClass;
 
-public class TC10_A_Sort_Items extends BaseClass{
+public class TC10_Sort_Items extends BaseClass{
 	@Test
 	public void searchItem() throws InterruptedException {
 		String item="iphone";

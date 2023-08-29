@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 
 import amazon.genericLib.BaseClass;
 
-public class TC3_A_Search_Test extends BaseClass{
+public class TC03_Search_Test extends BaseClass{
 	@Test(priority=1)
 	public void searchBarVisible() {
 		WebElement search=driver.findElement(By.id("twotabsearchtextbox"));

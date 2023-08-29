@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 
 import amazon.genericLib.BaseClass;
 
-public class TC11_A_List_Items extends BaseClass{
+public class TC11_List_Items extends BaseClass{
 	
 	
 	public void searchItem() throws InterruptedException {

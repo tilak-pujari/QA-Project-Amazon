@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 
 import amazon.genericLib.BaseClass;
 
-public class TC1_A_HomePage_Test extends BaseClass {
+public class TC01_HomePage_Test extends BaseClass {
 	public WebDriver driver;
 	//@Test(priority=1)
 	public void launchBrowser() {

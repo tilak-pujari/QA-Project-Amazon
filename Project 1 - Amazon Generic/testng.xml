@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="amazon.testScripts.TC11_List_Items" />
+			<class name="amazon.testScripts.TC01_HomePage_Test" />
+			<class name="amazon.testScripts.TC05_Deals_Test" />
+			<class name="amazon.testScripts.TC10_Sort_Items" />
+			<class name="amazon.testScripts.TC03_Search_Test" />
+			<class name="amazon.testScripts.TC06_CustReview_Test" />
+			<class name="amazon.testScripts.TC04_Lang_Test" />
+			<class name="amazon.testScripts.TC08_PriceRange_Test" />
+			<class name="amazon.testScripts.TC02_Nav_Test" />
+			<class name="amazon.testScripts.TC07_Discount_Test" />
+			<class name="amazon.testScripts.TC09_DealType_Test" />
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->

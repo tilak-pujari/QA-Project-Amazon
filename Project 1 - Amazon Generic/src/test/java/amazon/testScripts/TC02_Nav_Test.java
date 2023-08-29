@@ -10,7 +10,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import amazon.genericLib.BaseClass;
-public class TC2_A_Nav_Test extends BaseClass{
+public class TC02_Nav_Test extends BaseClass{
 		//AmazonNavBarTest at=new AmazonNavBarTest();
 		
 		public WebElement addToCart() {

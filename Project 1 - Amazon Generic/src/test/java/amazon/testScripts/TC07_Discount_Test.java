@@ -10,7 +10,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
 
-public class TC7_A_Discount_Test {
+public class TC07_Discount_Test {
 	
 	WebDriver driver;
 	public void opendeals() {

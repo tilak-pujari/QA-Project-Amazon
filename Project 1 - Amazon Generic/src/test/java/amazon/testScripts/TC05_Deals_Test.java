@@ -9,7 +9,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
-public class TC5_A_Deals_Test {
+public class TC05_Deals_Test {
 	
 
 	WebDriver driver;

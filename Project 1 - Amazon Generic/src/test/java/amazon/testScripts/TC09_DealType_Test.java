@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 
 import amazon.genericLib.BaseClass;
 
-public class TC9_A_DealType_Test  extends BaseClass{
+public class TC09_DealType_Test  extends BaseClass{
 	@Test(priority=1)
 	public void testVisibilityDealType() throws InterruptedException{
 		
